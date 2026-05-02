@@ -1,0 +1,27 @@
+/* General styling */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Game container styling */
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    background-color: #1e1e1e;
+    width: 500px;
+    height: 500px;
+}
+
+canvas {
+    display: block;
+    background-color: #000000;
+}
